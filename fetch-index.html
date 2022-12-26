@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>.container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+    .profile-card{
+        width: 33%;
+        height: 60vh;
+        box-shadow: 1px 1px 10px rgb(0,0,0);
+        border-radius: 10px;
+        color: black;
+        text-align: center;
+        margin: 25px;
+        padding: 25px;
+    }
+</style>
+<body>
+<div id='container' class="container">
+    <div id="profile-card" class="profile-card">
+        <h2 id="userId"></h2>
+        <img src="" alt="" id="user-img">
+        <h2 id="title" class="title"></h2>
+        <p id="email" class="email"></p>
+    </div>
+</div>
+    <script src="fetch-api.js"></script>
+</body>
+</html>
